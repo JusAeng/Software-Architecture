@@ -94,39 +94,45 @@ Ref : https://towardsdatascience.com/understanding-the-structure-of-matplotlib-2
 
 
 
-## Matplotlib
+## Yesod
 
 
 ### Purpose
-
+Web framework ที่พัฒนาโดยภาษาHaskell ซึ่งเป็น Functional Programming Language พัฒนาขึ้นเพื่อย่อScaleของโค้ด โดยโค้ดถูกCompile ด้วยCompiler แทนLibraryภายนอก 
 
 ### Architectural Styles
-
+<img src="https://www.aosabook.org/images/yesod/overview.png">
+MVC (Model View Controller)
+- Model = Database
+- View = Shakespeare Templates
+- Yesod app = Controller
 
 ### 3 Quality Attribute Scanario
-1. Useability<br />
+1. Security<br />
+   Source of stimulus: ผู้ไม่ประสงค์ดี<br />
+   Stimulus: การโจมตีจากผู้ไม่ประสงค์ดี<br />
+   Environment: System<br />
+   Artifact: Data<br />
+   Response: ข้อมูลถูกป้องกันไม่ให้ผู้ไม่ประสงค์ดีเข้าถึงได้<br />
+   Response measure: อัตราส่วนการป้องกันสำเร็จ<br />
+
+2. Testability <br />
+   Source of stimulus: Tester<br />
+   Stimulus: ทดสอบฟังก์ชัน<br />
+   Environment: All system<br />
+   Artifact: System<br />
+   Response: ผลจากCompiler<br />
+   Response measure: ฟังก์ชันที่บัค<br />
+
+3. Performance<br />
    Source of stimulus: User<br />
-   Stimulus: เรียนรู้วิธีการใช้งาน<br />
-   Environment: Runtime<br />
-   Artifact: System<br />
-   Response: โค้ดทีอ่านแล้วเข้าใจง่าย<br />
-   Response measure: knowledge<br />
+   Stimulus: เรียกใช้งานหลายfunction<br />
+   Environment: การทำงานของApplication<br />
+   Artifact: functional system<br />
+   Response: resorceที่ใช้งาน<br />
+   Response measure: ใช้resourceลดลง<br />
+ 
 
-2. Integrability<br />
-   Source of stimulus: Component<br />
-   Stimulus: Update version<br />
-   Environment: Development<br />
-   Artifact: System<br />
-   Response: Complete?<br />
-   Response measure: ความเข้าใจง่ายของcode<br />
-
-3. Modifiablity<br />
-   Source of stimulus: ผู้สร้าง<br />
-   Stimulus: Edit<br />
-   Environment: Runtime<br />
-   Artifact: Code<br />
-   Response: ผลการเปลี่ยนแปลง<br />
-   Response measure: ความซับซ้อนApplication<br />
    
-Ref : https://towardsdatascience.com/understanding-the-structure-of-matplotlib-23b97f507fac
+
 
