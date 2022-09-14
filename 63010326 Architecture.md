@@ -17,32 +17,34 @@
 <img
   src="https://www.aosabook.org/images/audacity/Layers.png">
 
-asdfasdf
+Sercive-Oriented Architecture <br>
+Audacity ใช้ libraries มากมาย Libraryหลักที่ใช้สำหรับติดต่อUser นั้นคือ wxWidgets ซึ่งเป็นแพลตฟอร์มข้ามแพลตฟอร์ม (Windows, Mac, Linux) ซึงจากภาพด้านบนแสดงถึงการจัดวาง
+Library ของ Audacity
 
 ### 3 Quality Attribute Scanario
-1. <br />
-   Source of stimulus:<br />
-   Stimulus:<br />
-   Environment:<br />
-   Artifact:<br />
-   Response:<br />
-   Response measure:<br />
+1. Useability<br />
+   Source of stimulus: User<br />
+   Stimulus: เรียนรู้ระบบsoftware<br />
+   Environment: Runtime<br />
+   Artifact: GUI<br />
+   Response: ใช้งานได้ง่าย<br />
+   Response measure: Knowledge<br />
 
-2. <br />
-   Source of stimulus:<br />
-   Stimulus:<br />
-   Environment:<br />
-   Artifact:<br />
-   Response:<br />
-   Response measure:<br />
+2. Performance<br />
+   Source of stimulus: User<br />
+   Stimulus: ใช้งานมิกซ์เสียง<br />
+   Environment: การทำงานบนApplication<br />
+   Artifact: ส่วนของระบบที่ใช้มิกซ์เสียง<br />
+   Response: System resource<br />
+   Response measure: ใช้เวลาเร็วขึ้นในการมิกซ์<br />
 
-3. <br />
-   Source of stimulus:<br />
-   Stimulus:<br />
-   Environment:<br />
-   Artifact:<br />
-   Response:<br />
-   Response measure:<br />
+3. Modifiability <br />
+   Source of stimulus: ผู้สร้าง<br />
+   Stimulus: เพิ่ม feature<br />
+   Environment: Runtime<br />
+   Artifact: Code ,UI<br />
+   Response: ผลทดสอบจากการเปลี่ยนแปลง<br />
+   Response measure: ผลตอบรับผู้ใช้งาน<br />
    
 Ref : https://www.aosabook.org/en/audacity.html
 
@@ -77,7 +79,7 @@ Matplotlib ประกอบด้วย 3 Layer หลัก
    Stimulus: Update version<br />
    Environment: Development<br />
    Artifact: System<br />
-   Response: Complete?<br />
+   Response: ความเปลี่ยนแปลงที่เข้ากับระบบ<br />
    Response measure: ความเข้าใจง่ายของcode<br />
 
 3. Modifiablity<br />
@@ -85,7 +87,7 @@ Matplotlib ประกอบด้วย 3 Layer หลัก
    Stimulus: Edit<br />
    Environment: Runtime<br />
    Artifact: Code<br />
-   Response: ผลการเปลี่ยนแปลง<br />
+   Response: ผลการเปลี่ยนแปลงโค้ด<br />
    Response measure: ความซับซ้อนApplication<br />
    
 Ref : https://towardsdatascience.com/understanding-the-structure-of-matplotlib-23b97f507fac
