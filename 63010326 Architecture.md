@@ -102,7 +102,8 @@ Web framework ที่พัฒนาโดยภาษาHaskell ซึ่ง�
 
 ### Architectural Styles
 <img src="https://www.aosabook.org/images/yesod/overview.png">
-MVC (Model View Controller)
+MVC (Model View Controller)<br>
+
 - Model = Database
 - View = Shakespeare Templates
 - Yesod app = Controller
