@@ -1,6 +1,5 @@
 package creational;
 
-
 public class Book {
     public enum Metadata {
         ISBN("ISBN"),
