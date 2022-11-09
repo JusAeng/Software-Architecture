@@ -1,4 +1,3 @@
-package edu.parinya.softarchdesign.structural;
 
 public class Cardiologist extends HealthcareWorker {
     public Cardiologist(String name, double price) {

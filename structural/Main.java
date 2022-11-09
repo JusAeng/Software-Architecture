@@ -1,5 +1,5 @@
+
 // Please DO NOT MODIFY THIS FILE
-package edu.parinya.softarchdesign.structural;
 
 public class Main {
 
